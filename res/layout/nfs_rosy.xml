@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@drawable/mobx_preference_single_item_bg"
+    android:paddingTop="10.0dip"
+    android:paddingBottom="10.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0.0dip"
+    android:layout_marginBottom="0.0dip"
+    android:paddingStart="15.0dip"
+    android:paddingEnd="15.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="0.0dip"
+        android:layout_marginBottom="0.0dip"
+        android:layout_marginEnd="0.0dip">
+        <FrameLayout
+            android:background="@drawable/ic_phone_nusan"
+            android:layout_width="175.0dip"
+            android:layout_height="330.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="10.0dip">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="165.0dip"
+                android:layout_height="312.0dip"
+                android:src="@drawable/ic_rom_logo"
+                android:layout_weight="1.0" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView
+        android:textSize="16.0dip"
+        android:textColor="?android:textColorSecondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/mobx_preference_single_item_bg"
+        android:paddingTop="10.0dip"
+        android:paddingBottom="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:layout_marginBottom="2.0dip"
+        android:foreground="?android:selectableItemBackground"
+        android:paddingStart="10.0dip"
+        android:layout_marginEnd="2.0dip">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <TextView
+                android:textSize="13.0dip"
+                android:textColor="?android:textColorSecondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:" />
+            <TextView
+                android:textSize="16.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AnGgIt86"
+                android:fontFamily="@string/fonts" />
+            <TextView
+                android:textSize="13.0dip"
+                android:textColor="?android:textColorSecondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Origin:" />
+            <TextView
+                android:textSize="16.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mojokerto-JawaTimur-INDONESIA"
+                android:fontFamily="@string/fonts" />
+            <TextView
+                android:textSize="13.0dip"
+                android:textColor="?android:textColorSecondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender:" />
+            <TextView
+                android:textSize="16.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manuk lanang"
+                android:fontFamily="@string/fonts" />
+            <TextView
+                android:textSize="13.0dip"
+                android:textColor="?android:textColorSecondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age:" />
+            <TextView
+                android:textSize="16.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24 year"
+                android:fontFamily="@string/fonts" />
+            <TextView
+                android:textSize="13.0dip"
+                android:textColor="?android:textColorSecondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Device:" />
+            <TextView
+                android:textSize="16.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Redmi 5 (Rosy)"
+                android:fontFamily="@string/fonts" />
+            <TextView
+                android:textSize="13.0dip"
+                android:textColor="?android:textColorSecondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hobi:" />
+            <TextView
+                android:textSize="16.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nonton Bokep"
+                android:fontFamily="@string/fonts" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:textSize="16.0dip"
+        android:textColor="?android:textColorSecondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bio" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/mobx_preference_single_item_bg"
+        android:paddingTop="10.0dip"
+        android:paddingBottom="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:layout_marginBottom="2.0dip"
+        android:paddingStart="10.0dip"
+        android:layout_marginEnd="2.0dip">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <TextView
+                android:textSize="16.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tidak ada kesuksesan tanpa kerja keras."
+                android:fontFamily="@string/fonts" />
+            <TextView
+                android:textSize="16.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tidak ada keberhasilan tanpa kebersamaan."
+                android:fontFamily="@string/fonts" />
+            <TextView
+                android:textSize="16.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tidak ada kemudahan tanpa Doa."
+                android:fontFamily="@string/fonts" />
+            <TextView
+                android:textSize="16.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:fontFamily="@string/fonts" />
+            <TextView
+                android:textSize="16.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jangan lupa nonton bokep ya."
+                android:fontFamily="@string/fonts" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:paddingTop="0.0dip"
+        android:paddingBottom="0.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:paddingStart="0.0dip">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/mobx_preference_single_item_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:foreground="?android:selectableItemBackground"
+                android:layout_marginStart="3.0dip"
+                android:layout_marginEnd="3.0dip">
+                <FrameLayout
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip">
+                    <ImageView
+                        android:paddingTop="0.0dip"
+                        android:paddingBottom="0.0dip"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip"
+                        android:src="@drawable/promo_miroom_shop"
+                        android:scaleType="fitXY" />
+                    <TextView
+                        android:ellipsize="marquee"
+                        android:autoLink="web"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="https://www.facebook.com/rahman.anggitsaputra1"
+                        android:alpha="0.0" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:paddingStart="0.0dip">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/mobx_preference_single_item_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:foreground="?android:selectableItemBackground"
+                android:layout_marginStart="3.0dip"
+                android:layout_marginEnd="3.0dip">
+                <FrameLayout
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip">
+                    <ImageView
+                        android:paddingTop="0.0dip"
+                        android:paddingBottom="0.0dip"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip"
+                        android:src="@drawable/promo_miroom_telegram"
+                        android:scaleType="fitXY" />
+                    <TextView
+                        android:ellipsize="marquee"
+                        android:autoLink="web"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="https://t.me/Bella_Aprilia_27"
+                        android:alpha="0.0" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:paddingStart="0.0dip">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/mobx_preference_single_item_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:foreground="?android:selectableItemBackground"
+                android:layout_marginStart="3.0dip"
+                android:layout_marginEnd="3.0dip">
+                <FrameLayout
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip">
+                    <ImageView
+                        android:paddingTop="0.0dip"
+                        android:paddingBottom="0.0dip"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip"
+                        android:src="@drawable/promo_miroom_vk"
+                        android:scaleType="fitXY" />
+                    <TextView
+                        android:ellipsize="marquee"
+                        android:autoLink="web"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="https://youtube.com/channel/UC_Rj0vBRqmJPJhAHFo5w74g"
+                        android:alpha="0.0" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:paddingStart="0.0dip">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/mobx_preference_single_item_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:foreground="?android:selectableItemBackground"
+                android:layout_marginStart="3.0dip"
+                android:layout_marginEnd="3.0dip">
+                <FrameLayout
+                    android:layout_width="55.0dip"
+                    android:layout_height="55.0dip">
+                    <ImageView
+                        android:paddingTop="0.0dip"
+                        android:paddingBottom="0.0dip"
+                        android:layout_width="55.0dip"
+                        android:layout_height="55.0dip"
+                        android:src="@drawable/promo_miroom_whatsapp"
+                        android:scaleType="fitXY" />
+                    <TextView
+                        android:ellipsize="marquee"
+                        android:autoLink="web"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="https://wa.wizard.id/1c50fe"
+                        android:alpha="0.0" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:paddingStart="0.0dip">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/mobx_preference_single_item_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:foreground="?android:selectableItemBackground"
+                android:layout_marginStart="3.0dip"
+                android:layout_marginEnd="3.0dip">
+                <FrameLayout
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip">
+                    <ImageView
+                        android:paddingTop="0.0dip"
+                        android:paddingBottom="0.0dip"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip"
+                        android:src="@drawable/promo_miroom_instagram"
+                        android:scaleType="fitXY" />
+                    <TextView
+                        android:ellipsize="marquee"
+                        android:autoLink="web"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="https://www.instagram.com/anggit9156"
+                        android:alpha="0.0" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+     </LinearLayout>
+</LinearLayout>

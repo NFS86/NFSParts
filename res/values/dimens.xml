@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base attributes available to CardView. -->
+    <dimen name="mobx_card_rounded1">0.0dip</dimen>
+    <dimen name="mobx_card_rounded2">15.0dip</dimen>
+    <dimen name="mobx_card_space">0.0dip</dimen>
+    <dimen name="dev_preference_category_height">40.0dip</dimen>
+    <dimen name="dev_preference_category_padding_top">0.0dip</dimen>
+    <dimen name="dev_preference_category_line_margin_start">10.0dip</dimen>
+</resources>

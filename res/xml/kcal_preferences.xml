@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/kcal_controll">
+
+    <com.needforspeed.parts.preferences.SecureSettingSwitchPreference
+        android:defaultValue="false"
+        android:layout="@layout/card_top"
+        android:key="kcal_enabled"
+        android:title="@string/kcal_disabled" />
+
+	<mobx.projects.property.minimalist.space/>
+
+    <com.needforspeed.parts.preferences.SecureSettingSwitchPreference
+        android:defaultValue="false"
+        android:layout="@layout/card_middle"
+        android:dependency="kcal_enabled"
+        android:key="set_on_boot"
+        android:title="@string/set_on_boot" />
+
+	<mobx.projects.property.minimalist.space/>
+
+    <com.needforspeed.parts.preferences.SecureSettingSwitchPreference
+        android:defaultValue="false"
+        android:layout="@layout/card_bottom"
+        android:dependency="kcal_enabled"
+        android:key="grayscale"
+        android:title="@string/grayscale" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="cat_colormanagement"
+        android:title="@string/cat_colormanagement">
+
+        <com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceTop
+            android:defaultValue="255"
+            android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
+            android:key="color_red"
+            android:max="255"
+            android:title="@string/color_red" />
+
+        <com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceMiddle
+            android:defaultValue="255"
+            android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
+            android:key="color_green"
+            android:max="255"
+            android:title="@string/color_green" />
+
+        <com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceMiddle
+            android:defaultValue="255"
+            android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
+            android:key="color_blue"
+            android:max="255"
+            android:title="@string/color_blue" />
+
+        <com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceBottom
+            android:defaultValue="35"
+            android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
+            android:key="color_minimum"
+            android:max="255"
+            android:title="@string/color_minimum" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="cat_calibration"
+        android:title="@string/cat_calibration">
+
+        <com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceTop
+            android:defaultValue="35"
+            android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
+            android:key="saturation"
+            android:max="158"
+            android:title="@string/saturation" />
+
+        <com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceMiddle
+            android:defaultValue="127"
+            android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
+            android:key="value"
+            android:max="255"
+            android:title="@string/value" />
+
+        <com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceMiddle
+            android:defaultValue="127"
+            android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
+            android:key="contrast"
+            android:max="255"
+            android:title="@string/contrast" />
+
+        <com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceBottom
+            android:defaultValue="0"
+            android:dependency="kcal_enabled"
+            android:icon="@drawable/ic_kcal"
+            android:key="hue"
+            android:max="1536"
+            android:title="@string/hue" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
