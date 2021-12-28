@@ -42,11 +42,13 @@
                     android:textSize="12.0dip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@*android:color/text_color_primary"
                     android:text="@string/style_version_device" />
                 <TextView
                     android:textSize="16.0dip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@*android:color/text_color_secondary"
                     android:text="@string/style_device_name_text" />
             </LinearLayout>
             <LinearLayout
@@ -68,11 +70,13 @@
                     android:textSize="12.0dip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@*android:color/text_color_primary"
                     android:text="@string/style_version_cpu" />
                 <TextView
                     android:textSize="16.0dip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@*android:color/text_color_secondary"
                     android:text="@string/style_device_cpu_text" />
             </LinearLayout>
         </LinearLayout>
@@ -105,11 +109,13 @@
                     android:textSize="12.0dip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@*android:color/text_color_primary"
                     android:text="@string/style_version_maintainer" />
                 <TextView
                     android:textSize="16.0dip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@*android:color/text_color_secondary"
                     android:text="@string/style_device_maintainer_text" />
             </LinearLayout>
             <LinearLayout
@@ -131,11 +137,13 @@
                     android:textSize="12.0dip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@*android:color/text_color_primary"
                     android:text="@string/style_version_battery" />
                 <TextView
                     android:textSize="16.0dip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@*android:color/text_color_secondary"
                     android:text="@string/style_device_battery_text" />
             </LinearLayout>
         </LinearLayout>
