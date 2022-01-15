@@ -41,13 +41,13 @@
                     android:src="@drawable/ic_style_device" />
                 <TextView
                     android:textSize="12.0dip"
-                    android:textColor="@android:color/text_color_primary"
+                    android:textColor="@*android:color/text_color_primary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/style_version_device" />
                 <TextView
                     android:textSize="16.0dip"
-                    android:textColor="@android:color/text_color_secondary"
+                    android:textColor="@*android:color/text_color_secondary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/style_device_name_text" />
@@ -70,13 +70,13 @@
                     android:src="@drawable/ic_style_cpu" />
                 <TextView
                     android:textSize="12.0dip"
-                    android:textColor="@android:color/text_color_primary"
+                    android:textColor="@*android:color/text_color_primary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/style_version_cpu" />
                 <TextView
                     android:textSize="16.0dip"
-                    android:textColor="@android:color/text_color_secondary"
+                    android:textColor="@*android:color/text_color_secondary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/style_device_cpu_text" />
@@ -110,13 +110,13 @@
                     android:src="@drawable/ic_style_maintainer" />
                 <TextView
                     android:textSize="12.0dip"
-                    android:textColor="@android:color/text_color_primary"
+                    android:textColor="@*android:color/text_color_primary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/style_version_maintainer" />
                 <TextView
                     android:textSize="16.0dip"
-                    android:textColor="@android:color/text_color_secondary"
+                    android:textColor="@*android:color/text_color_secondary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/style_device_maintainer_text" />
@@ -139,13 +139,13 @@
                     android:src="@drawable/ic_style_battery" />
                 <TextView
                     android:textSize="12.0dip"
-                    android:textColor="@android:color/text_color_primary"
+                    android:textColor="@*android:color/text_color_primary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/style_version_battery" />
                 <TextView
                     android:textSize="16.0dip"
-                    android:textColor="@android:color/text_color_secondary"
+                    android:textColor="@*android:color/text_color_secondary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/style_device_battery_text" />
