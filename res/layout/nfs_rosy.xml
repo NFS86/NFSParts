@@ -23,11 +23,21 @@
         android:layout_marginBottom="0.0dip"
         android:layout_marginEnd="0.0dip">
         <FrameLayout
-            android:background="@drawable/ic_phone_nusan"
             android:layout_width="300.0dip"
-            android:layout_height="300.0dip"
-            android:layout_marginTop="10.0dip"
-            android:layout_marginBottom="10.0dip">
+            android:layout_height="300.0dip">
+            <ImageView
+                android:src="@drawable/ic_phone_nusan"
+                android:layout_width="300.0dip"
+                android:layout_height="300.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip" />
+            <TextView
+                android:ellipsize="marquee"
+                android:autoLink="web"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="https://saweria.co/AnGgIt86"
+                android:alpha="0.0" />
         </FrameLayout>
     </LinearLayout>
     <TextView

@@ -27,11 +27,12 @@
                 android:gravity="center"
                 android:orientation="vertical"
                 android:background="@drawable/mobx_preference_single_item_bg"
+                android:foreground="?android:selectableItemBackground"
                 android:layout_width="fill_parent"
-                android:layout_height="90.0dip"
+                android:layout_height="94.0dip"
                 android:layout_marginTop="0.0dip"
                 android:layout_marginBottom="0.0dip"
-                android:layout_marginEnd="2.0dip">
+                android:layout_marginEnd="3.0dip">
                 <ImageView
                     android:paddingTop="5.0dip"
                     android:paddingBottom="8.0dip"
@@ -40,26 +41,27 @@
                     android:src="@drawable/ic_style_device" />
                 <TextView
                     android:textSize="12.0dip"
+                    android:textColor="@android:color/text_color_primary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@*android:color/text_color_primary"
                     android:text="@string/style_version_device" />
                 <TextView
                     android:textSize="16.0dip"
+                    android:textColor="@android:color/text_color_secondary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@*android:color/text_color_secondary"
                     android:text="@string/style_device_name_text" />
             </LinearLayout>
             <LinearLayout
                 android:gravity="center"
                 android:orientation="vertical"
                 android:background="@drawable/mobx_preference_single_item_bg"
+                android:foreground="?android:selectableItemBackground"
                 android:layout_width="fill_parent"
-                android:layout_height="90.0dip"
-                android:layout_marginTop="5.0dip"
+                android:layout_height="94.0dip"
+                android:layout_marginTop="6.0dip"
                 android:layout_marginBottom="0.0dip"
-                android:layout_marginEnd="2.0dip">
+                android:layout_marginEnd="3.0dip">
                 <ImageView
                     android:paddingTop="5.0dip"
                     android:paddingBottom="8.0dip"
@@ -68,15 +70,15 @@
                     android:src="@drawable/ic_style_cpu" />
                 <TextView
                     android:textSize="12.0dip"
+                    android:textColor="@android:color/text_color_primary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@*android:color/text_color_primary"
                     android:text="@string/style_version_cpu" />
                 <TextView
                     android:textSize="16.0dip"
+                    android:textColor="@android:color/text_color_secondary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@*android:color/text_color_secondary"
                     android:text="@string/style_device_cpu_text" />
             </LinearLayout>
         </LinearLayout>
@@ -94,11 +96,12 @@
                 android:gravity="center"
                 android:orientation="vertical"
                 android:background="@drawable/mobx_preference_single_item_bg"
+                android:foreground="?android:selectableItemBackground"
                 android:layout_width="fill_parent"
-                android:layout_height="90.0dip"
+                android:layout_height="94.0dip"
                 android:layout_marginTop="0.0dip"
                 android:layout_marginBottom="0.0dip"
-                android:layout_marginStart="2.0dip">
+                android:layout_marginStart="3.0dip">
                 <ImageView
                     android:paddingTop="5.0dip"
                     android:paddingBottom="8.0dip"
@@ -107,26 +110,27 @@
                     android:src="@drawable/ic_style_maintainer" />
                 <TextView
                     android:textSize="12.0dip"
+                    android:textColor="@android:color/text_color_primary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@*android:color/text_color_primary"
                     android:text="@string/style_version_maintainer" />
                 <TextView
                     android:textSize="16.0dip"
+                    android:textColor="@android:color/text_color_secondary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@*android:color/text_color_secondary"
                     android:text="@string/style_device_maintainer_text" />
             </LinearLayout>
             <LinearLayout
                 android:gravity="center"
                 android:orientation="vertical"
                 android:background="@drawable/mobx_preference_single_item_bg"
+                android:foreground="?android:selectableItemBackground"
                 android:layout_width="fill_parent"
-                android:layout_height="90.0dip"
-                android:layout_marginTop="5.0dip"
+                android:layout_height="94.0dip"
+                android:layout_marginTop="6.0dip"
                 android:layout_marginBottom="0.0dip"
-                android:layout_marginStart="2.0dip">
+                android:layout_marginStart="3.0dip">
                 <ImageView
                     android:paddingTop="5.0dip"
                     android:paddingBottom="8.0dip"
@@ -135,15 +139,15 @@
                     android:src="@drawable/ic_style_battery" />
                 <TextView
                     android:textSize="12.0dip"
+                    android:textColor="@android:color/text_color_primary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@*android:color/text_color_primary"
                     android:text="@string/style_version_battery" />
                 <TextView
                     android:textSize="16.0dip"
+                    android:textColor="@android:color/text_color_secondary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@*android:color/text_color_secondary"
                     android:text="@string/style_device_battery_text" />
             </LinearLayout>
         </LinearLayout>
