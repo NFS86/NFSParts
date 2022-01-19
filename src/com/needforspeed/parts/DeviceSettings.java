@@ -22,6 +22,7 @@ import com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceTop;
 import com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceMiddle;
 import com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceBottom;
 import com.needforspeed.parts.ambient.AmbientGesturePreferenceActivity;
+import com.needforspeed.parts.speaker.ClearSpeakerActivity;
 import com.needforspeed.parts.su.SuShell;
 import com.needforspeed.parts.su.SuTask;
 import android.util.Log;
@@ -79,6 +80,8 @@ public class DeviceSettings extends PreferenceFragment implements
     private static final String PREF_ENABLE_DIRAC = "dirac_enabled";
     private static final String PREF_HEADSET = "dirac_headset_pref";
     private static final String PREF_PRESET = "dirac_preset_pref";
+    
+    private static final String PREF_CLEAR_SPEAKER = "clear_speaker_settings";
 
     private static Context mContext;
     private SwitchPreference mSelinuxMode;
@@ -86,6 +89,8 @@ public class DeviceSettings extends PreferenceFragment implements
 
     private CustomSeekBarPreference mSpeakerGain;
     private CustomSeekBarPreference mEarpieceGain;
+    
+    private Preference mClearSpeakerPref;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -118,6 +123,13 @@ public class DeviceSettings extends PreferenceFragment implements
         SwitchPreference fpsInfo = (SwitchPreference) findPreference(PREF_KEY_FPS_INFO);
         fpsInfo.setChecked(prefs.getBoolean(PREF_KEY_FPS_INFO, false));
         fpsInfo.setOnPreferenceChangeListener(this);
+        
+        mClearSpeakerPref = (Preference) findPreference(PREF_CLEAR_SPEAKER);
+        mClearSpeakerPref.setOnPreferenceClickListener(preference -> {
+            Intent intent = new Intent(getActivity().getApplicationContext(), ClearSpeakerActivity.class);
+            startActivity(intent);
+            return true;
+        });
 
         boolean enhancerEnabled;
         try {

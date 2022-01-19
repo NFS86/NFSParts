@@ -137,9 +137,20 @@
 	<PreferenceCategory
 		android:title="@string/other_category">
 		
+		<Preference
+            android:key="clear_speaker_settings" 
+            android:layout="@layout/card_top"
+            android:title="@string/clear_speaker_title"
+            android:icon="@drawable/ic_speaker_cleaner_icon" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.needforspeed.parts.speaker.ClearSpeakerActivity"
+                android:targetPackage="com.needforspeed.parts.speaker" />
+        </Preference>
+		
 		<com.needforspeed.parts.preferences.SecureSettingListPreference
             android:defaultValue="0"
-            android:layout="@layout/card_top"
+            android:layout="@layout/card_middle"
             android:dialogTitle="@string/spectrum_dialogTitle"
             android:entries="@array/spectrum_profiles"
             android:entryValues="@array/spectrum_values"
