@@ -13,7 +13,7 @@
 		android:title="@string/audio_category">
 
 		<com.needforspeed.parts.preferences.SecureSettingSwitchPreference
-			android:defaultValue="false"
+			android:defaultValue="true"
 			android:key="dirac_enabled"
 			android:layout="@layout/card_top"
 			android:summary="@string/dirac_summary"

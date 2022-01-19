@@ -5,7 +5,7 @@
         android:title="@string/kcal_controll">
 
     <com.needforspeed.parts.preferences.SecureSettingSwitchPreference
-        android:defaultValue="false"
+        android:defaultValue="true"
         android:layout="@layout/card_top"
         android:key="kcal_enabled"
         android:title="@string/kcal_disabled" />
@@ -13,7 +13,7 @@
 	<mobx.projects.property.minimalist.space/>
 
     <com.needforspeed.parts.preferences.SecureSettingSwitchPreference
-        android:defaultValue="false"
+        android:defaultValue="true"
         android:layout="@layout/card_middle"
         android:dependency="kcal_enabled"
         android:key="set_on_boot"
@@ -35,7 +35,7 @@
         android:title="@string/cat_colormanagement">
 
         <com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceTop
-            android:defaultValue="255"
+            android:defaultValue="236"
             android:dependency="kcal_enabled"
             android:icon="@drawable/ic_kcal"
             android:key="color_red"
@@ -43,7 +43,7 @@
             android:title="@string/color_red" />
 
         <com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceMiddle
-            android:defaultValue="255"
+            android:defaultValue="248"
             android:dependency="kcal_enabled"
             android:icon="@drawable/ic_kcal"
             android:key="color_green"
@@ -73,7 +73,7 @@
         android:title="@string/cat_calibration">
 
         <com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceTop
-            android:defaultValue="35"
+            android:defaultValue="50"
             android:dependency="kcal_enabled"
             android:icon="@drawable/ic_kcal"
             android:key="saturation"
@@ -81,7 +81,7 @@
             android:title="@string/saturation" />
 
         <com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceMiddle
-            android:defaultValue="127"
+            android:defaultValue="123"
             android:dependency="kcal_enabled"
             android:icon="@drawable/ic_kcal"
             android:key="value"
@@ -89,7 +89,7 @@
             android:title="@string/value" />
 
         <com.needforspeed.parts.preferences.SecureSettingSeekBarPreferenceMiddle
-            android:defaultValue="127"
+            android:defaultValue="130"
             android:dependency="kcal_enabled"
             android:icon="@drawable/ic_kcal"
             android:key="contrast"
