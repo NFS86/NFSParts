@@ -32,11 +32,6 @@ import com.needforspeed.parts.R;
 public class DeviceSettings extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener {
         	
-     // mobx spectrum
-    public static final String PREF_SPECTRUM = "spectrum";
-    public static final String SPECTRUM_SYSTEM_PROPERTY = "persist.spectrum.profile";
-    private SecureSettingListPreference mSPECTRUM;
-
     public static final String PREF_USB_FASTCHARGE = "fastcharge";
     public static final String USB_FASTCHARGE_PATH = "/sys/kernel/fast_charge/force_fast_charge";
     private SwitchPreference mFastcharge;
@@ -73,10 +68,6 @@ public class DeviceSettings extends PreferenceFragment implements
     public static final  String SPEAKER_GAIN_PATH = "/sys/kernel/sound_control/speaker_gain";
     public static final  String EARPIECE_GAIN_PATH = "/sys/kernel/sound_control/headphone_gain";
     
-    public static final String PREF_CAMERA = "camera";
-    public static final String CAMERA_SYSTEM_PROPERTY = "persist.camera.profile";
-    private SecureSettingListPreference mCamera;
-
     private static final String PREF_ENABLE_DIRAC = "dirac_enabled";
     private static final String PREF_HEADSET = "dirac_headset_pref";
     private static final String PREF_PRESET = "dirac_preset_pref";
@@ -193,18 +184,6 @@ public class DeviceSettings extends PreferenceFragment implements
             mFastcharge.setChecked(Fastcharge.isCurrentlyEnabled(this.getContext()));
             mFastcharge.setOnPreferenceChangeListener(new Fastcharge(getContext()));
         } 
-        
-        // mobx spectrum
-        mSPECTRUM = (SecureSettingListPreference) findPreference(PREF_SPECTRUM);
-        mSPECTRUM.setValue(FileUtils.getStringProp(SPECTRUM_SYSTEM_PROPERTY, "0"));
-        mSPECTRUM.setSummary(mSPECTRUM.getEntry());
-        mSPECTRUM.setOnPreferenceChangeListener(this);
-        
-        // HAL3|HAL1 Switch button profiles
-        mCamera = (SecureSettingListPreference) findPreference(PREF_CAMERA);
-        mCamera.setValue(FileUtils.getStringProp(CAMERA_SYSTEM_PROPERTY, "0"));
-        mCamera.setSummary(mCamera.getEntry());
-        mCamera.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -212,13 +191,6 @@ public class DeviceSettings extends PreferenceFragment implements
         final String key = preference.getKey();
         switch (key) {
         	
-            // mobx spectrum
-            case PREF_SPECTRUM:
-                mSPECTRUM.setValue((String) value);
-                mSPECTRUM.setSummary(mSPECTRUM.getEntry());
-                FileUtils.setStringProp(SPECTRUM_SYSTEM_PROPERTY, (String) value);
-                break;
-        
             case PREF_VIBRATION_SYSTEM_STRENGTH:
                 double VibrationSystemValue = (int) value / 100.0 * (MAX_VIBRATION - MIN_VIBRATION) + MIN_VIBRATION;
                 FileUtils.setValue(VIBRATION_SYSTEM_PATH, VibrationSystemValue);
@@ -278,12 +250,6 @@ public class DeviceSettings extends PreferenceFragment implements
                 }
                 break;
 
-            case PREF_CAMERA:
-                mCamera.setValue((String) value);
-               	mCamera.setSummary(mCamera.getEntry());
-                FileUtils.setStringProp(CAMERA_SYSTEM_PROPERTY, (String) value);
-                break;
-            
             case PREF_SELINUX_MODE:
                 boolean on = (Boolean) value;
                 new SwitchSelinuxTask(getActivity()).execute(on);

@@ -147,31 +147,7 @@
                 android:targetClass="com.needforspeed.parts.speaker.ClearSpeakerActivity"
                 android:targetPackage="com.needforspeed.parts.speaker" />
         </Preference>
-		
-		<com.needforspeed.parts.preferences.SecureSettingListPreference
-            android:defaultValue="0"
-            android:layout="@layout/card_middle"
-            android:dialogTitle="@string/spectrum_dialogTitle"
-            android:entries="@array/spectrum_profiles"
-            android:entryValues="@array/spectrum_values"
-            android:key="spectrum"
-            android:summary="@string/spectrum_summary"
-            android:icon="@drawable/ic_spectrum" 
-            android:title="@string/spectrum_title" />
 
-        <com.needforspeed.parts.preferences.SecureSettingListPreference
-            android:summary="@string/camera_explanation_summary"
-            android:key="camera"
-            android:layout="@layout/card_middle"
-            android:title="@string/camera_title"
-            android:summaryOn="@string/camera_hal3_summary"
-            android:summaryOff="@string/camera_hal1_summary"
-            android:icon="@drawable/ic_cam"
-            android:defaultValue="0"
-            android:dialogTitle="@string/camera_dialogTitle"
-            android:entries="@array/camera_profiles"
-            android:entryValues="@array/camera_values" />
-            
 		<com.needforspeed.parts.preferences.SecureSettingSwitchPreference
 			android:defaultValue="true"
 			android:key="set_on_boot"
